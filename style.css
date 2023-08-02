@@ -1,3 +1,5 @@
+/* FIXO TODAS AS PÁGINAS */
+
 * {
     padding:0;
     margin:0;
@@ -8,16 +10,42 @@
 header {
     height:12vh;
     background-color:black;
-    padding:5px;
+    padding:4vh;
     display:flex;
-    justify-content:end;
+    justify-content: space-between;
     align-items:center;
+}
+header h1 {
+    color:white;
+    text-decoration: none;
 }
 header a {
     color:white;
     text-decoration: none;
-    margin-right:4vh;
 }
+
+/* footer */
+footer {
+    display:flex;
+    height:12vh;
+    background-color:black;
+    align-items: center;
+    justify-content: flex-start;
+}
+footer a {
+    height:24px;
+    color:white;
+    font-size:14px;
+    text-decoration: none;
+    margin-left:25px;
+}
+footer i {
+    color:white;
+    font-size:24px;
+    display:flex;
+}
+
+/* PÁGINA 1 - INDEX */
 
 /* main */
 main {
@@ -76,12 +104,4 @@ img {
 }
 
 
-/* footer */
-footer {
-    display:flex;
-    height:10vh;
-    background-color:black;
-}
-footer i {
-    color:white;
-}
+/* PÁGINA 2 - PROJETOS */
