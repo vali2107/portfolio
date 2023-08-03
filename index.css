@@ -1,0 +1,56 @@
+main {
+    padding: 14vh 0 14vh 0;
+}
+
+section {
+    display:flex;
+    justify-content:center;
+    gap:10vw;
+}
+
+/* introdução */
+.sessaoEsquerda {
+    width:40vw;
+    border:2px solid black;
+    padding:20px;
+}
+.sessaoEsquerda h2 {
+    margin-bottom:10px;
+}
+.sessaoEsquerda p {
+    text-align: justify;
+}
+
+
+/* perfil */
+.sessaoDireita {
+    width:23vw;
+    border:2px solid black;
+    padding:20px;
+}
+
+.sessaoDireita h3:first-of-type {
+    display:inline-block;
+}
+.sessaoDireita p:first-of-type {
+    display:inline-block;
+    font-size:12px;
+}
+
+img {
+    width:10vw;
+    height:auto;
+    margin:10px 0;
+}
+
+.sessaoDireita h3:last-of-type {
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+.sessaoDireita__linguagem {
+    border:2px solid black;
+    padding:10px;
+    width:20vw;
+    margin:10px 1.5px;
+}
