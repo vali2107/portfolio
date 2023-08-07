@@ -26,12 +26,17 @@
     height:100%;
     z-index:1;
 }
+.overlay a {
+    color:white;
+    text-decoration: none;
+}
 .overlay:hover {
     opacity:0.8;
 }
 
 .projeto__informacoes {
     width:21vw;
+    margin:0 1vw;
 }
 .linhaUm {
     display:flex;
